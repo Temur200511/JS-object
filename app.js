@@ -29,8 +29,38 @@
 
 
 
+// const people = [
+//     { name: 'Jalol', age: 13 },
+//     { name: 'Malik', age: 56 },
+//     { name: 'Ravshan', age: 45 },
+//     { name: 'Nazim', age: 67 },
+//     { name: 'Jasur', age: 65 }
+//   ];
+  
+//   const ages = people.map(person => person.age);
+//   const youngest = Math.min(...ages);
+//   const oldest = Math.max(...ages);
+//   const difference = oldest - youngest;
+  
+//   console.log(difference);
+  
+
+// function minMaxWord(sentence) {
+//     const words = sentence.split(' ');
+//     const minWord = words.reduce((shortest, word) => word.length < shortest.length ? word : shortest, words[0]);
+//     const maxWord = words.reduce((longest, word) => word.length > longest.length ? word : longest, words[0]);
+//     return { minWord, maxWord };
+//   }
+  
+//   console.log(minMaxWord("Men dasturlash kursida o‘qiyman"));
+  
 
 
-
-
+// const calculateSum = (...nums) => {
+//     const sum = nums.reduce((total, num) => total + num, 0);
+//     return [nums.length, sum];
+//   };
+  
+//   console.log(calculateSum(1, 22, 3)); // [3, 26]
+  
 
